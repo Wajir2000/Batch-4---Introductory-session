@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="d1"></p>
+        <p id="d2"></p>
+        <p id="d3"></p>
+        <p id="d4"></p>
+        <p id="d5"></p>
+        <script>
+
+
+
+          const d = new Date(2021, 04, 12, 10, 33, 30);
+          const dd = new Date("October 13, 2022 11:13:00")
+          let msec = Date.parse("March 11, 2022")
+    document.getElementById("demo").innerHTML = d;
+    document.getElementById("d1").innerHTML = d.toUTCString();
+    document.getElementById("d2").innerHTML = d.toDateString();
+    document.getElementById("d3").innerHTML = d.toISOString();
+    document.getElementById("d4").innerHTML = msec;
+
+    document.getElementById("d5").innerHTML = d.getFullYear();
+   // document.getElementById("d5").innerHTML = d.getMonth();
+   // document.getElementById("d5").innerHTML = d.getDate();
+   // document.getElementById("d5").innerHTML = d.getHours();
+   // document.getElementById("d5").innerHTML = d.getDay();
+    
+        </script>
+
+
+    </body>
+</html>

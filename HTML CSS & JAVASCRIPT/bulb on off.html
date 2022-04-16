@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img id="myimage" onclick="changeImage()" src="boff.jpg" width="200" height="250">
+<script>
+function changeImage() {
+  var image = document.getElementById('myimage');
+  if (image.src.match("bon")) {
+    image.src = "boff.jpg";
+  } else {
+    image.src = "bon.jpg";
+  }
+}
+</script>
+</body>
+</html>

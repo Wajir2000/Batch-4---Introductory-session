@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <p id="demo5"></p>
+        <script>
+            let text ="wajiransariwwwewewwefsd";
+            document.getElementById("demo").innerHTML=text.length;   //length
+            </script>
+        <script>
+            let str="rahul, wajir , salman";
+            document.getElementById("demo1").innerHTML=str.slice(7,13); //slicing
+            document.getElementById("demo2").innerHTML=text.toUpperCase(); // to upper
+            document.getElementById("demo3").innerHTML=text.toLowerCase();   //to lower
+            
+            document.getElementById("demo5").innerHTML=text.match("fsd"); 
+            const name="wajir,Rahul,Kunal,Suraj";
+            const lname="wajir,Rahul,Kunal,Suraj";
+          const fulln = name.concat(lname);
+          document.getElementById("demo4").innerHTML = fulln;
+
+
+        </script>
+ 
+    </body>
+</html>
